@@ -1,4 +1,4 @@
-const apikey = '0f9678e2-659a-44cc-9e78-8e90384a65dd';
+const apikey = import.meta.env.VITE_API_KEY;
 const headers = { 'api-key': apikey };
 
 export function getTrack(trackID: string) {
